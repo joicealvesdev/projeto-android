@@ -1,0 +1,115 @@
+charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+   height: 100%; 
+
+}
+body { background-image: linear-gradient(to right, #93e199, #68bb70); 
+    margin: 0%;
+   
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #506266;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+.mainpersonalizado {
+       width: 100%;
+      border-radius: 0%; 
+      color: white;
+      background-image: linear-gradient(to right, rgb(115, 162, 115), rgb(22, 182, 94))
+
+   
+    
+    
+}
+
+
+.navpersonalizado a {
+    color: white;
+  
+
+}
+.navpersonalizado a:hover {
+    color: rgb(232, 255, 99); }
+
+
+
+
+
+h1 {
+  color: #BDE038;
+  text-align: center;
+  text-shadow: 1px 1px 0px #506266;
+}
+
+h2 {
+    color: #BDE038;
+    text-shadow: 1px 1px 0px #506266;
+}
+ 
+p 
+
+{
+    text-align: justify;
+    
+}
+.basico {
+    text-align: center;
+    
+}
+
+.robozinho {
+    max-width: 100%;
+}
+
+.irinaimagem {
+    max-width: 100%;
+}
+
+.robomaozinha {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    
+}
+
+.h1nocenter {
+    text-align: left;
+    background-color: #68bb70;
+    padding: 10px;
+    border: 1px 1px 0px;
+    border-radius: 10px;
+    display: block;
+}
+
+
+
+   
+
+
+.checklist {
+    list-style-type: decimal;
+    padding-left: 20px;
+    display: flex;
+  }
+  
+  .checklist li::before {
+    content: "✔ "; /* Adiciona o checkzinho */
+    color: green; /* Cor do check, pode mudar se quiser */
+    margin-right: 8px; /* Espaço entre o check e o número */
+  }
+  
+
+
+
+
+ 
+  
+  
